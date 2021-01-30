@@ -13,4 +13,5 @@ class App < Sinatra::Base
     item = params["item"]
     @sessions[:item] = item
   end
+  erb :
 end
